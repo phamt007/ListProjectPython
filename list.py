@@ -17,6 +17,7 @@ class List:
         word = self.character[number]
         self.character.remove(word)
     def display(self):
+        print("Display")
         i = 0
         while(i < len(self.character)):
             if(self.character[i]):
