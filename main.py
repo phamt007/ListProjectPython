@@ -9,6 +9,12 @@ def main():
     word = ""
     number = 0 
     i = 0
+
+    obj.inserttxt()
+    obj.display()
+
+
+
     print("Welcome, enter")
     while(i != 4):
         print("1 - Insert")
@@ -31,7 +37,8 @@ def main():
             obj.display()
         if(user == 3):
             obj.display()
-            
+        if(user == 4):
+            obj.changetxt()
 
     
 
